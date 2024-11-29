@@ -2,32 +2,32 @@ import React from "react";
 const Experience = () => {
   const experience = [
     {
-      title: "Software Engineer",
-      company: "NIST University",
-      date: "2019 - Present",
+      title: "Full Stack Intern",
+      company: "NALCO",
+      date: "2024 JAN - FEB",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam in lectus fermentum aliquam. Nulla facilisi. ",
+        "Build a Full Stack Doctor Appointment System using MERN Stack",
     },
     {
-      title: "Software Developer",
+      title: "Bachelor of Technology",
       company: "NIST University",
-      date: "2017 - 2019",
+      date: "2021 - 2025",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam in lectus fermentum aliquam. Nulla facilisi. ",
+        " Pursuing Bachelor of technology in Computer Science and Engineering at NIST University",
     },
     {
-      title: "Software Developer",
-      company: "NIST University",
-      date: "2017 - 2019",
+      title: "Intermidiate",
+      company: "SOA University",
+      date: "2019 - 2021",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam in lectus fermentum aliquam. Nulla facilisi. ",
+        "Completed Intermediate in Science and Engineering from SOA University",
     },
     {
-      title: "Software Developer",
-      company: "NIST University",
-      date: "2017 - 2019",
+      title: "Metriculation",
+      company: "Balukeswar High School",
+      date: "2019",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam in lectus fermentum aliquam. Nulla facilisi. ",
+        "Completed Metriculation from Balukeswar High School",
     },
   ];
   return (

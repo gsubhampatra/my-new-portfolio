@@ -3,37 +3,30 @@ import React from "react";
 const ProjectSection = () => {
   const projects = [
     {
-      title: "Project 1",
-      description: "ecommerce website",
-      image: "",
+      title: "AI Form Builder",
+      description: "AI Form Builder is an innovative tool designed to revolutionize the way we create forms. Leveraging the power of AI, this tool generates forms based on simple user prompts, making the process fast and hassle-free.",
+      image: "https://media.licdn.com/dms/image/v2/D5622AQEYyvZJQTygSg/feedshare-shrink_800/feedshare-shrink_800/0/1718359333408?e=1735776000&v=beta&t=5LWFWLxSokMJoHW-sp6TlRzH5QPUsM2GxYKQDclxY6k",
       tags: ["js", "mongo", "express"],
-      link: "",
-      github: "",
+      link: "https://ai-form-builder-byg.vercel.app/",
+      github: "https://github.com/gsubhampatra/ai-form-builder",
     },
     {
-      title: "Project 2",
-      description: "ecommerce website",
-      image: "",
+      title: "AI Image Generator",
+      description: "Ai image generator is an image generation tool that uses the power of AI to generate images. The tool allows you to upload a prompt and the tool will generate an image based on that prompt.",
+      image: "https://i.ibb.co/8B1MQxn/aiimagegenn.png",
       tags: ["js", "mongo", "express"],
-      link: "",
-      github: "",
+      link: "https://imagen-byg.vercel.app/",
+      github: "https://github.com/gsubhampatra/imagen.ai",
     },
     {
-      title: "Project 3",
-      description: "ecommerce website",
-      image: "",
+      title: "Snake Game",
+      description: "Snake Game is a classic game where the player controls a snake and tries to eat food to grow larger. The game is played on a grid and the player can move the snake using the arrow keys.",
+      image: "https://i.ibb.co/0ykM3N9/snakc-game.png",
       tags: ["js", "mongo", "express"],
-      link: "",
-      github: "",
+      link: "https://gsubhampatra.github.io/gsnakegame/",
+      github: "https://github.com/gsubhampatra/gsnakegame/",
     },
-    {
-      title: "Project 4",
-      description: "ecommerce website",
-      image: "",
-      tags: ["js", "mongo", "express"],
-      link: "",
-      github: "",
-    },
+   
   ];
   return (
     <>
@@ -52,24 +45,13 @@ const ProjectSection = () => {
               className="p-4 bg-gray-700 rounded-md shadow-[0_5px_20px]  hover:shadow-[2px_4px_50px] transition-all"
             >
               <img
-                className="rounded-md h-[200px] w-full object-cover"
                 src={project.image}
+                className="rounded-md h-[200px] w-full object-cover"
                 alt="project image"
               />
               <h1 className="my-2 text-2xl font-semibold text-sky-50">{project.title}</h1>
               <p className="text-gray-200">{project.description}</p>
               <div className="flex justify-between mt-4">
-                <div>
-                  {project.tags.map((tag, index) => (
-                    <span
-                      key={index}
-                      className="px-2 py-1 mr-2 text-xs sm:text-sm rounded-full shadow-[0_0_8px] bg-gradient-to-r shadow-sky-300 from-sky-400 to-violet-600"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                
                 <div>
                   <a
                     href={project.link}

@@ -48,18 +48,21 @@ const Hero = () => {
             </span>
           </p>
           <div className="my-8 font-extralight ">
-            <button
+            <a
+              target="_blank"
+            href="https://drive.google.com/file/d/1pgCkOF9ay4y6b8YuulXSKMwAjpK_ROA6/view?usp=sharing"
               data-aos="zoom-in"
               className="px-6 py-3 mr-4 transition-all rounded-full shadow-[0_5px_20px] shadow-sky-700 hover:bg-gradient-to-tl text-sky-50 bg-gradient-to-br hover:from-sky-600 hover:to-violet-500 from-sky-400 to-violet-700"
             >
               Download CV
-            </button>
-            <button
+            </a>
+            <a
+              href="mailto:gsubhampatra@gmail.com"
               data-aos="zoom-in"
               className="px-6 py-3 mr-4 transition-all rounded-full text-sky-50 bg-gradient-to-br hover:bg-gradient-to-tl shadow-[0_5px_20px] shadow-sky-700 from-sky-400 hover:from-sky-600 hover:to-violet-500 to-violet-700"
             >
               Hire Me
-            </button>
+            </a>
           </div>
         </div>
       </div>
