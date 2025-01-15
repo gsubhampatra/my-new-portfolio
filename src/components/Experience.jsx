@@ -2,6 +2,13 @@ import React from "react";
 const Experience = () => {
   const experience = [
     {
+      title: "Full Stack Developer",
+      company: "Nexus Infotech",
+      date: "2024 DEC - Present",
+      description:
+        "Build a Full Stack Ecommerce Website using MERN Stack",
+    },
+    {
       title: "Full Stack Intern",
       company: "NALCO",
       date: "2024 JAN - FEB",

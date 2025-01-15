@@ -1,19 +1,28 @@
 import React from "react";
- 
+import { aiformbuilder, ccc, imagegen, snackgame } from "../assets";
+
 const ProjectSection = () => {
   const projects = [
     {
+      title: "Cloud Computing Club Website",
+      description: "AI Form Builder is an innovative tool designed to revolutionize the way we create forms. Leveraging the power of AI, this tool generates forms based on simple user prompts, making the process fast and hassle-free.",
+      image: ccc,
+      tags: ["Next.js", "MongoDB", "Prisma"],
+      link: "https://cloudcomputingclub.co.in/",
+      github: "https://github.com/",
+    },
+    {
       title: "AI Form Builder",
       description: "AI Form Builder is an innovative tool designed to revolutionize the way we create forms. Leveraging the power of AI, this tool generates forms based on simple user prompts, making the process fast and hassle-free.",
-      image: "https://media.licdn.com/dms/image/v2/D5622AQEYyvZJQTygSg/feedshare-shrink_800/feedshare-shrink_800/0/1718359333408?e=1735776000&v=beta&t=5LWFWLxSokMJoHW-sp6TlRzH5QPUsM2GxYKQDclxY6k",
-      tags: ["js", "mongo", "express"],
+      image: aiformbuilder,
+      tags: ["React", "mongo", "express"],
       link: "https://ai-form-builder-byg.vercel.app/",
       github: "https://github.com/gsubhampatra/ai-form-builder",
     },
     {
       title: "AI Image Generator",
       description: "Ai image generator is an image generation tool that uses the power of AI to generate images. The tool allows you to upload a prompt and the tool will generate an image based on that prompt.",
-      image: "https://i.ibb.co/8B1MQxn/aiimagegenn.png",
+      image: imagegen,
       tags: ["js", "mongo", "express"],
       link: "https://imagen-byg.vercel.app/",
       github: "https://github.com/gsubhampatra/imagen.ai",
@@ -21,12 +30,12 @@ const ProjectSection = () => {
     {
       title: "Snake Game",
       description: "Snake Game is a classic game where the player controls a snake and tries to eat food to grow larger. The game is played on a grid and the player can move the snake using the arrow keys.",
-      image: "https://i.ibb.co/0ykM3N9/snakc-game.png",
-      tags: ["js", "mongo", "express"],
+      image: snackgame,
+      tags: ["js", "HTML", "CSS"],
       link: "https://gsubhampatra.github.io/gsnakegame/",
       github: "https://github.com/gsubhampatra/gsnakegame/",
     },
-   
+
   ];
   return (
     <>
